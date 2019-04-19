@@ -10,7 +10,8 @@ This is a simple laravel API example including API versioning from my YouTube tu
 2. cd into the directory
 3. Run `composer install`
 4. Run `php artisan key:generate`
-5. Run the table migrations `php artisan migrate`
-6. Seed the database `php artisan db:seed`
+5. Set up your `.env` file with the correct data (don't forget API_DOMAIN)
+6. Run the table migrations `php artisan migrate`
+7. Seed the database `php artisan db:seed`
 
 Now you should have the same project I ended the series with.
